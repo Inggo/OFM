@@ -1,0 +1,23 @@
+{
+    "name": "inggo/ofm",
+    "description": "Offsite File Manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inggo Espinosa",
+            "email": "inggo.espinosa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inggo\\OFM\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Inggo\\OFM\\OFMServiceProvider"
+            ]
+        }
+    }
+}
